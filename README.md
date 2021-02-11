@@ -3,7 +3,8 @@ This is simple example of  web-page  for ordering flowers  from a web store.
 >The using of the table construction for the product basket is not a good idea in the real project. But I used it simply like an example of using table construction on web-page.
 
 **1.index.html**.
- Web-page  consist of following parts: navigation menu (class: .header), basket of order(class: .basket), order’s form(class: .basketorder). In  the code of page  are used following constructions:link(names of products in the table), table(products), image (photos of products), form(orders form) , select(field in the form, where chose delivery method),   input fields “text” , “tel”(fields in the order’s form) and “number”( is used for entering the amount of products) , “submit”(button –“Submit” in the form)  and labels .
+
+ Web-page  consist of following parts: navigation menu (class: .header), basket of order(class: .basket), orderâ€™s form(class: .basketorder). In  the code of page  are used following constructions:link(names of products in the table), table(products), image (photos of products), form(orders form) , select(field in the form, where chose delivery method),   input fields â€œtextâ€ , â€œtelâ€(fields in the orderâ€™s form) and â€œnumberâ€( is used for entering the amount of products) , â€œsubmitâ€(button â€“â€œSubmitâ€ in the form)  and labels .
 
 **HTML code of Navigation menu**.
 
@@ -43,14 +44,14 @@ These label and checkbox participate in the handling of this event. The main par
 font-size: 90%;
 }
 ```
-3. Changing of navigation element’s  color  by hovering mouse over it:
+3. Changing of navigation elementâ€™s  color  by hovering mouse over it:
 ```
 .header li a:hover,
 .header .menu-btn:hover {
     background-color: #f4f4f4;
 }
 ```
-4. Handling of event “clicking on the icon of navigation menu”.
+4. Handling of event â€œclicking on the icon of navigation menuâ€.
 ```
 .header .menu-btn:checked ~ .menu {
     max-height: 240px;
@@ -102,7 +103,8 @@ The main moments  of responsive navigation menu:
     top: -5px;
 }
 ```
-2. Handling of event “clicking on the icon of navigation menu”.
+2. Handling of event â€œclicking on the icon of navigation menuâ€.
+
 ```
 .header .menu-btn:checked ~ .menu {
     max-height: 240px;
